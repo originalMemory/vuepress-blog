@@ -107,4 +107,7 @@ module.exports = [
       },
     },
   ],
+  [
+    '@renovamen/vuepress-plugin-mermaid'
+  ]
 ]

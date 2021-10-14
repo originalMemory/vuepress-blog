@@ -26,6 +26,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "@renovamen/vuepress-plugin-mermaid": "^0.2.0",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }
