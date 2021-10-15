@@ -22,11 +22,11 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   bodyBgImg: [
-    // 'https://xuanniao.fun/static/random-image/1/5/1/795.jpg',
-    // 'https://xuanniao.fun/static/random-image/1/5/1/797.jpg',
-    // 'https://xuanniao.fun/static/random-image/1/5/1/891.jpg',
-    // 'https://xuanniao.fun/static/random-image/1/5/1/349.jpg',
-    // 'https://xuanniao.fun/static/random-image/1/5/1/176.jpg',
+    'https://xuanniao.fun/static/random-image/1/5/1/795.jpg',
+    'https://xuanniao.fun/static/random-image/1/5/1/797.jpg',
+    'https://xuanniao.fun/static/random-image/1/5/1/891.jpg',
+    'https://xuanniao.fun/static/random-image/1/5/1/349.jpg',
+    'https://xuanniao.fun/static/random-image/1/5/1/176.jpg',
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
