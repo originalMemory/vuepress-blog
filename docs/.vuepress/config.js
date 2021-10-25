@@ -11,8 +11,14 @@ module.exports = {
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
+    extendMarkdown: md => {
+        md.set({
+            html: true
+        })
+        // 支持公式
+        md.use(require('@neilsustc/markdown-it-katex'), {"throwOnError" : false, "errorColor" : " #cc0000"})
+    }
   },
-
   head,
   plugins,
   themeConfig,

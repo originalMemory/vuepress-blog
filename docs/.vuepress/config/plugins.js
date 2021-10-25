@@ -107,7 +107,6 @@ module.exports = [
       },
     },
   ],
-  [
-    '@renovamen/vuepress-plugin-mermaid'
-  ]
+  '@renovamen/vuepress-plugin-mermaid',
+  '@neilsustc/markdown-it-katex',
 ]
