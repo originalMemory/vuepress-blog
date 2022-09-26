@@ -14,7 +14,7 @@ cd docs/.vuepress/dist
 msg='deploy'
 githubUrl=git@github.com:originalMemory/originalMemory.github.io.git
 
-git init
+git init -b master
 git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master # 推送到github gh-pages分支
